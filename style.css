@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+}
+
+/* HEADER */
+
+.header {
+    background:
+        linear-gradient(
+            to bottom,
+            #dceef5 0%,
+            #edf5f0 55%,
+            #cddda9 56%,
+            #dce6bd 100%
+        );
+
+    border-bottom: 4px solid #c8d1d3;
+    padding: 28px 18px 18px;
+}
+
+.logo {
+    font-size: clamp(30px, 8vw, 62px);
+    font-weight: 900;
+    letter-spacing: -2px;
+    white-space: nowrap;
+}
+
+.red {
+    color: #b3262e;
+}
+
+.black {
+    color: #111;
+}
+
+.domain {
+    color: #111;
+    font-weight: 700;
+}
+
+.header p {
+    margin: 12px 0 0;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+
+/* ABOUT */
+
+.about {
+    background: #d2d2d2;
+    padding: 14px 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.about h2 {
+    color: #a32128;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 0 8px;
+}
+
+.about p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+
+/* ARCHIVE */
+
+.archive {
+    padding: 14px;
+}
+
+.page-title {
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.archive h2 {
+    background: #b3262e;
+    color: white;
+    font-size: 14px;
+    padding: 9px;
+    margin: 0;
+}
+
+
+/* MESSAGE LIST */
+
+.message-list {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 10px;
+
+    border-bottom: 1px solid white;
+}
+
+.message:nth-child(odd) {
+    background: #ffffff;
+}
+
+.message:nth-child(even) {
+    background: #dfeaf0;
+}
+
+.message a {
+    display: block;
+    color: #222;
+   
