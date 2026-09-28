@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Write a Message - EuropeanGoldfinch.qd.je</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="site">
+
+    <header class="header">
+
+        <div class="logo">
+            🐦
+            <span class="red">European</span><span class="black">Goldfinch</span><span class="domain">.qd.je</span>
+        </div>
+
+        <p>A personal archive of words, memories and messages.</p>
+
+    </header>
+
+
+    <main class="archive">
+
+        <div class="page-title">
+            WRITE A MESSAGE
+        </div>
+
+
+        <div class="writer">
+
+            <label>
+                MESSAGE TITLE
+            </label>
+
+            <input
+                id="messageTitle"
+                type="text"
+                placeholder="Give your message a title..."
+            >
+
+
+            <label>
+                YOUR NAME
+            </label>
+
+            <input
+                id="messageAuthor"
+                type="text"
+                placeholder="Your name or Anonymous"
+            >
+
+
+            <label>
+                YOUR MESSAGE
+            </label>
+
+            <textarea
+                id="messageText"
+                placeholder="Write your message here..."
+            ></textarea>
+
+
+            <button onclick="saveMessage()">
+                SAVE MESSAGE
+            </button>
+
+
+            <a class="back-link" href="index.html">
+                ← Back to archive
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        EuropeanGoldfinch.qd.je
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
